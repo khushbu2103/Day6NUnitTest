@@ -9,8 +9,7 @@ namespace Day6NUnitTest
     internal class VendingMachine
     {
         public static void NoteDenomination()
-        {
-            Console.WriteLine("please enter total amout of currency");
+        { 
             int totalCurrency = Convert.ToInt32(Console.ReadLine());
             int amount = totalCurrency;
             int totalNoOfNotes = 0;
